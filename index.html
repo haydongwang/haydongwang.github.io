@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>王浩东个人博客____不忘初心，方得始终</title>
+<meta name="keywords" content="个人博客,王浩东个人博客" />
+<meta name="description" content="王浩东个人博客，是一个半路出道的程序员。" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<link href="css/m.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script>
+window.onload = function ()
+{
+	var oH2 = document.getElementsByTagName("h2")[0];
+	var oUl = document.getElementsByTagName("ul")[0];
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="tophead">
+    <div class="logo"><a href="/">王浩东个人博客</a></div>
+    <div id="mnav">
+      <h2><span class="navicon"></span></h2>
+      <ul>
+ <li><a href="index.html">网站首页</a></li>
+        <li><a href="pages/about.html">关于我</a></li>
+		<li><a href="pages/gbook.html">技术贴</a></li>
+        <li><a href="pages/info.html">慢生活</a></li>
+      </ul>
+    </div>
+    <nav class="topnav" id="topnav">
+      <ul>
+        <li><a href="index.html">网站首页</a></li>
+        <li><a href="pages/about.html">关于我</a></li>
+		<li><a href="pages/gbook.html">技术贴</a></li>
+        <li><a href="pages/info.html">慢生活</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="picshow">
+</div>
+<article>
+  <div class="blogs">
+  <!--首页文章排版-->
+    <li> <span class="blogpic"><a href="/"><img src="images/text02.jpg"></a></span>
+      <h3 class="blogtitle"><a href="/">2019.05.21，开始制作我的个人博客网站</a></h3>
+      <div class="bloginfo">
+        <p>用最简单的代码，实现瀑布流布局，没有繁琐的css，没有jq，只需要做到以下就可以实现瀑布流的效果。思路很简单，看成是三列布局，分别用三个ul来调用。帝国cms列表模板，...</p>
+      </div>
+      <div class="autor"><span class="lm"><a href="/" title="CSS3|Html5" target="_blank" class="classname">CSS3|Html5</a></span><span class="dtime">2019-05-21</span><span class="viewnum">浏览（<a href="javaScript:void(0)">0</a>）</span><span class="readmore"><a href="/">阅读原文</a></span></div>
+    </li>
+
+
+
+  </div>
+
+
+  <!--个人信息展示-->
+  <div class="sidebar">
+    <div class="about">
+      <div class="avatar"> <img src="images/auther.jpg" alt=""> </div>
+      <p class="abname">haydon | 王浩东</p>
+      <p class="abposition">java后端程序员</p>
+      <div class="abtext"> 一个96年的小孩子 <br/>一入java深似海，从此头发是路人。 </div>
+    </div>
+
+  <!--  搜索框
+    <div class="search">
+      <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+        <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+        <input name="show" value="title" type="hidden">
+        <input name="tempid" value="1" type="hidden">
+        <input name="tbname" value="news" type="hidden">
+        <input name="Submit" class="input_submit" value="搜索" type="submit">
+      </form>
+    </div>
+    -->
+    <div class="cloud">
+      <h2 class="hometitle">个人标签</h2>
+      <ul>
+        <a href="/">95后</a> <a href="/">热爱生活</a> <a href="/">读书</a> <a href="/">写小说</a> <a href="/">后端开发</a> <a href="/">JAVA</a> <a href="/">易语言</a> <a href="/">kindle读书部落</a><a href="/">没对象</a> <a href="/">胖矮挫</a> <a href="/">听党指挥</a>
+      </ul>
+    </div>
+    <div class="paihang">
+      <h2 class="hometitle">站长推荐</h2>
+      <ul>
+        <li><b><a href="/download/div/2015-04-10/746.html" target="_blank">【活动作品】柠檬绿兔小白个人博客模板30...</a></b>
+          <p><i><img src="images/t02.jpg"></i>展示的是首页html，博客页面布局格式简单，没有复杂的背景，色彩局部点缀，动态的幻灯片展示，切换卡，标...</p>
+        </li>
+        <li><b><a href="/download/div/2014-02-19/649.html" target="_blank"> 个人博客模板（2014草根寻梦）30...</a></b>
+          <p><i><img src="images/b03.jpg"></i>2014第一版《草根寻梦》个人博客模板简单、优雅、稳重、大气、低调。专为年轻有志向却又低调的草根站长设...</p>
+        </li>
+
+      </ul>
+    </div>
+    <!--友情链接
+    <div class="links">
+      <h2 class="hometitle">友情链接</h2>
+      <ul>
+        <li><a href="http://www.yangqq.com" title="杨青个人博客">杨青个人博客</a></li>
+        <li><a href="http://www.yangqq.com" title="杨青个人博客">杨青个人博客</a></li>
+        <li><a href="http://www.yangqq.com" title="杨青个人博客">杨青个人博客</a></li>
+      </ul>
+    </div>
+    -->
+    <div class="weixin">
+      <h2 class="hometitle">个人微信</h2>
+      <ul>
+        <img src="images/wx.jpg">
+      </ul>
+    </div>
+  </div>
+</article>
+<div class="blank"></div>
+<footer>
+  <p>Design by <a href="/">王浩东个人博客</a> </p>
+</footer>
+<script src="js/nav.js"></script>
+</body>
+</html>
